@@ -10,7 +10,7 @@ namespace AvivaSearch
     public class AvivaGoogleSearchSteps
     {
         GooglePageExecutors googlepageexecutors = new GooglePageExecutors();
-
+        [BeforeScenario]
         public void BeforeScenario()
         {
             OpenBrowsers.OpenChromeBrowser();
@@ -20,7 +20,7 @@ namespace AvivaSearch
         public void GivenIAmOnTheGooglePage()
 
         {
-            OpenBrowsers.driver.Navigate().GoToUrl("https//:www.google.com");
+            OpenBrowsers.driver.Navigate().GoToUrl("https://www.google.com");
 
          }
         
@@ -47,7 +47,7 @@ namespace AvivaSearch
             }
             Console.WriteLine("The fifth link text in Google search page is : " + fifthLinkText);
         }
-
+        [AfterScenario]
         public void AfterScenario()
         {
             OpenBrowsers.CloseBrowser();

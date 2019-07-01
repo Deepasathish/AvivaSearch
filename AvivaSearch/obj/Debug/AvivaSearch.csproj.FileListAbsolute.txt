@@ -1,2 +1,0 @@
-C:\Users\Tilak\Documents\Deepa\workspace\AvivaSearch\AvivaSearch\obj\Debug\AvivaSearch.csprojResolveAssemblyReference.cache
-C:\Users\Tilak\Documents\Deepa\workspace\AvivaSearch\AvivaSearch\bin\Debug\AvivaSearch.exe.config

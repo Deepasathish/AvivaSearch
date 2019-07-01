@@ -10,6 +10,6 @@ namespace AvivaSearch.Pages
     class GoogleHompageLocators
     {
         public By GoogleSearchField => By.Name("q");
-        public By links => By.XPath("//div[@class='r']a[1]/h3");
+        public By links => By.XPath("//div[@class='r']/a[1]/h3");
     }
 }

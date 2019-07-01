@@ -23,6 +23,6 @@ namespace AvivaSearch.Pages
             driver.Close();
             driver.Dispose();
         }
-
+        
     }
 }
